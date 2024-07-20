@@ -1,0 +1,103 @@
+import SectionIntro from "./SectionIntro"
+import Image from "next/image"
+import Link from "next/link"
+
+const Work = () => {
+    const recentWork = [
+        {
+            id: 1,
+            title: "Product Design",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work3.png'
+
+        },
+        {
+            id: 2,
+            title: "Web Design food",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work2.png'
+
+        },
+        {
+            id: 3,
+            title: "Realestate website",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work.png'
+
+        },
+        {
+            id: 4,
+            title: "Web Design",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work4.png'
+
+        },
+        {
+            id: 5,
+            title: "Lil Brother Site",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work5.png'
+
+        },
+        {
+            id: 6,
+            title: "Skate site Product ",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work6.png'
+
+        },
+        {
+            id: 7,
+            title: "Old tradition site design",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: '/img/work7.png'
+
+        },
+        {
+            id: 8,
+            title: "Security Design",
+            desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur, 
+            inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus cumque minima`,
+            imageUrl: "/img/work8.png"
+
+        },
+    ]
+    return (
+        <section id="work" className="w-full dark:bg-gray-900">
+            <div className="max-w-screen-xl mx-auto p-4">
+                <SectionIntro subtitle="My work" title="some of my awesome works" />
+                <div className="grid lg:grid-cols-3 gap-4 overflow-hidden">
+                    {recentWork.map((work) => (
+                        <Link href={'/'}>
+                            <div className="relative" key={work.id}>
+                                <Image alt="Mountains"
+                                    src={work.imageUrl}
+                                    width="0"
+                                    height="0"
+                                    sizes="100vw"
+                                    className="w-full h-auto"
+                                />
+                                <div className="absolute opacity-0 hover:opacity-100 text-white bg-[#03010196]
+                            top-[0%] left-[0%] h-[100%] w-full  sm:w-full  md:w-1/3  lg:w-full  
+                            xl:w-1/2 flex items-center justify-center"><h2 className="text-[1.2rem]">
+                                        {work.title}</h2></div>
+                            </div>
+                        </Link>
+
+
+                    ))}
+                </div>
+            </div>
+        </section>
+
+    )
+}
+
+export default Work
