@@ -93,7 +93,7 @@
 .bgVideo {
   background-color: #1d1b1b;
   position: relative;
-  height: 83vh;
+  height: 93vh;
   object-fit: cover;
 }
 
@@ -106,5 +106,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 95vh;
 }

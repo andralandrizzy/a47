@@ -6,7 +6,7 @@ import imageHero from '@/public/img/hero.svg'
 
 const Hero = () => {
     return (
-        <section className="bg-white relative h-[85vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto py-4 
+        <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto py-4 
         place-content-center">
             <video loop
                 autoPlay
