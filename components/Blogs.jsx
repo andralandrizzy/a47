@@ -53,8 +53,8 @@ const Blogs = () => {
                         >
                             <div className="h-[300px] max-w-full">
                                 <div className="flex mb-8 justify-between">
-                                    <p className="text-nowrap"> <span><CiUser /></span> {blog.author}</p>
-                                    <p> <span><CiCalendarDate /></span>{blog.Date}</p>
+                                    <p> {blog.author}</p>
+                                    <p>{blog.Date}</p>
                                 </div>
                                 <h5 className="text-2xl mb-5 font-bold tracking-tight text-gray-900 dark:text-white">
                                     {blog.title}
@@ -63,7 +63,7 @@ const Blogs = () => {
                                     {blog.text}
                                 </p>
                             </div>
-                            <Button className="dark:text-white text-[#000] mt-2 w-1/2 border-0 border-b-2 border-orange-500">
+                            <Button className="dark:text-white text-[#000] mt-2 w-1/2 border border-orange-500">
                                 Learn more
                             </Button>
                         </Card>

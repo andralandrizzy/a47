@@ -73,7 +73,7 @@ const Work = () => {
         <section id="work" className="w-full dark:bg-gray-900">
             <div className="max-w-screen-xl mx-auto p-4">
                 <SectionIntro subtitle="My work" title="some of my awesome works" />
-                <div className="grid lg:grid-cols-3 gap-4 overflow-hidden">
+                <div className="grid lg:grid-cols-3 gap-7 overflow-hidden">
                     {recentWork.map((work) => (
                         <Link href={'/'}>
                             <div className="relative" key={work.id}>
@@ -82,7 +82,7 @@ const Work = () => {
                                     width="0"
                                     height="0"
                                     sizes="100vw"
-                                    className="w-full h-auto"
+                                    className="w-full h-[260px]"
                                 />
                                 <div className="absolute opacity-0 hover:opacity-100 text-white bg-[#03010196]
                             top-[0%] left-[0%] h-[100%] w-full  sm:w-full  md:w-1/3  lg:w-full  

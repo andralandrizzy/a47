@@ -73,7 +73,7 @@ const Skills = () => {
                         <ProgressBar legend='WordPress' percent='85%' width='85%' color='bg-teal-400' />
                         <ProgressBar legend='SEO' percent='90%' width='90%' color='bg-pink-400' />
                         <ProgressBar legend='CSS3' percent='85%' width='85%' color='bg-blue-400' />
-                        <ProgressBar legend='UX & UI Design' percent='90%' width='90%' color='bg-lime-500' />
+                        <ProgressBar legend='Python: Django & Flask' percent='90%' width='90%' color='bg-lime-500' />
                     </div>
                 </div>
 

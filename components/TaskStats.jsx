@@ -2,7 +2,7 @@
 const TaskStats = () => {
     return (
         <section className="w-full dark:bg-gray-900 ">
-            <div className="bg-section max-w-screen-xl mx-auto p-4 flex flex-wrap gap-5 
+            <div className="grid lg:grid-cols-4 grid-cols-2 bg-section max-w-screen-xl mx-auto p-4 gap-5 
             justify-between items-center text-center text-white">
                 <div>
                     <h2 className="text-[3rem]">512</h2>
