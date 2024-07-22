@@ -47,7 +47,6 @@ const Blogs = () => {
                                 className="w-[100%] h-[250px]"
                                 width={1000}
                                 height={0}
-                                layout="cover"
                                 quality={80}
                                 alt="post blog" />}
                         >

@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
 import imageHero from '@/public/img/hero.svg'
+import { ReactTyped } from "react-typed";
 
 
 
@@ -19,8 +21,20 @@ const Hero = () => {
 
                 <div className="flex mr-auto lg:col-span-7 w-[100%]">
                     <div className="my-[5rem]">
-                        <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl 
-                    text-white">Web Developer <br /> Andral Orelus</h1>
+                        <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-wide leading-none md:text-5xl xl:text-6xl 
+                    text-white">
+                            <span className="leading-10	text-[1.85rem] tracking-[5.45px] text-[#c9c5c5]">
+                                {" "}<ReactTyped
+                                    strings={["Web Developer", "Web Designer", "Programmer", "Painter", "Content Creator"]}
+                                    typeSpeed={100}
+                                    loop
+                                    backSpeed={20}
+                                    cursorChar=" _"
+                                    showCursor={true}
+                                />
+                            </span>
+
+                            <br /> Andral Orelus</h1>
                         <p className="max-w-2xl mb-6 font-light text-gray-100 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
                         <Link href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-orange-500 border-2 border-orange-500
                     rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
