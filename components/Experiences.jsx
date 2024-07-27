@@ -7,7 +7,7 @@ import SectionIntro from "./SectionIntro"
 const Experiences = () => {
     return (
         <section className="w-full dark:bg-gray-900">
-            <div className="max-w-screen-xl mx-auto p-4">
+            <div className="max-w-[1920px] mx-auto p-6">
                 <SectionIntro subtitle="experiences" title="My Job History" />
                 <Timeline>
                     <Timeline.Item>

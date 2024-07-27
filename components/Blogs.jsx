@@ -37,7 +37,7 @@ const Blogs = () => {
 
     return (
         <section id="blog" className="w-full dark:bg-gray-900">
-            <div className="max-w-screen-xl mx-auto p-4">
+            <div className="max-w-[1920px] mx-auto p-6">
                 <SectionIntro subtitle="read" title="recent blogs" />
                 <div className="flex flex-wrap gap-7 items-center">
                     {blogPost.map((blog) => (

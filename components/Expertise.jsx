@@ -9,7 +9,7 @@ import SectionIntro from "./SectionIntro"
 const Expertise = () => {
     return (
         <section id="services" className="bg-white w-full dark:bg-gray-900 mx-auto">
-            <div className="max-w-screen-xl mx-auto p-4">
+            <div className="max-w-[1920px] mx-auto p-6">
                 <SectionIntro subtitle="What i do " title="Some of my expertise" />
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-[2.5rem] py-8">
                     <div className="flex flex-col items-center justify-center lg:w-[250px] pb-4 border-b-2 border-[#2855c0]">

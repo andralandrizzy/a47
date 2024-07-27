@@ -54,7 +54,7 @@ const Skills = () => {
     ]
     return (
         <section id="skills" className="bg-white w-full dark:bg-gray-900 mx-auto">
-            <div className="max-w-screen-xl mx-auto p-4">
+            <div className="max-w-[1920px] mx-auto p-6">
                 <SectionIntro subtitle="My Specialty" title="My skills" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Officia hic quae in est sapiente doloremque, voluptas laboriosam

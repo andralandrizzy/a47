@@ -50,7 +50,7 @@ const Education = () => {
 
     return (
         <section id='education' className="w-full dark:bg-gray-900  ">
-            <div className="max-w-screen-xl p-4 mx-auto">
+            <div className="max-w-[1920px] p-6 mx-auto">
                 <SectionIntro subtitle="educations" title="Education" />
                 <Accordion className='my-6'>
                     {

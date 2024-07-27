@@ -8,16 +8,16 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
     return (
-        <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto py-4 
+        <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto py-6 
         place-content-center">
             <video loop
                 autoPlay
                 muted
                 src="/videos/bgvid2.mp4"
                 type="video/mp4"
-                className="bgVideo w-[100%] xl:max-w-screen-xl mx-auto">
+                className="bgVideo w-[100%] xl:max-w-[1920px] mx-auto">
             </video>
-            <div className="hero-content bg-[#f2eeee28] dark:bg-[#04061e72] grid w-[100%] xl:max-w-screen-xl px-4 py-0 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div className="hero-content bg-[#f2eeee28] dark:bg-[#04061e72] grid w-[100%] xl:max-w-[1920px] px-6 py-0 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 
                 <div className="flex mr-auto lg:col-span-7 w-[100%]">
                     <div className="my-[5rem]">
@@ -28,7 +28,7 @@ const Hero = () => {
                                     strings={["Web Developer", "Web Designer", "Programmer", "Painter", "Content Creator"]}
                                     typeSpeed={100}
                                     loop
-                                    backSpeed={20}
+                                    backSpeed={18}
                                     cursorChar=" _"
                                     showCursor={true}
                                 />
