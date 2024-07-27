@@ -10,7 +10,9 @@ const Hero = () => {
     return (
         <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto py-6 
         place-content-center">
-            <video loop
+            <video
+                oncontextmenu="return false;"
+                loop
                 autoPlay
                 muted
                 src="/videos/bgvid2.mp4"

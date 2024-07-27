@@ -99,12 +99,12 @@
 
 .hero-content {
   position: absolute;
-  top: 0%;
+  top: 4%;
   left: 0%;
   right: 0%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 95vh;
+  height: 93vh;
 }
