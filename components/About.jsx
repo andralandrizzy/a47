@@ -12,12 +12,12 @@ const About = (subtitle, title) => {
         <section id="about" className="bg-white w-full dark:bg-gray-900 flex mx-auto">
             <div className="max-w-[1920px] mx-auto p-6">
                 <SectionIntro subtitle="About Me" title="Who am I" />
-                <div className="lg:flex my-6 gap-8 justify-between lg:items-center">
+                <div className="lg:flex my-6 gap-6 justify-between lg:items-start">
                     <div className="aboutImg">
                         <Image src={ProfilePic} width={1040} height={500} />
                     </div>
                     <div className="aboutContent">
-                        <p className="py-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur,
+                        <p className="lg:pb-4 lg:pt-0 pt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur,
                             inventore deserunt excepturi itaque amet ab dolore porro, tenetur iure dolorem possimus
                             cumque minima quasi aliquam atque dolor qui veniam velit ullam laudantium? Earum architecto enim,
                             assumenda, quia sapiente officiis laudantium distinctio, aliquam quasi facilis est dolorem at dolor dicta.</p>
