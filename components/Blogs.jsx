@@ -52,8 +52,12 @@ const Blogs = () => {
                         >
                             <div className="h-[300px] max-w-full">
                                 <div className="flex mb-8 justify-between">
-                                    <p> {blog.author}</p>
-                                    <p>{blog.Date}</p>
+                                    <div className="flex items-center justify-center">
+                                        <CiUser /> <p className="ml-2"> {blog.author}</p>
+                                    </div>
+                                    <div className="flex items-center justify-center">
+                                        <CiCalendarDate /> <p className="ml-2"> {blog.Date}</p>
+                                    </div>
                                 </div>
                                 <h5 className="text-2xl mb-5 font-bold tracking-tight text-gray-900 dark:text-white">
                                     {blog.title}

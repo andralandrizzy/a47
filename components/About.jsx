@@ -7,7 +7,7 @@ import Image from "next/image";
 import ProfilePic from '@/public/img/profile.JPG'
 
 
-const About = (subtitle, title) => {
+const About = () => {
     return (
         <section id="about" className="bg-white w-full dark:bg-gray-900 flex mx-auto">
             <div className="max-w-[1920px] mx-auto p-6">

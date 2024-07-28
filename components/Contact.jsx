@@ -69,6 +69,7 @@ const Contact = () => {
                             </div>
                             <p className="text-[1.4rem] leading-8 text-orange-500">Miami, FL</p>
                             <p className="text-[1.4rem] leading-8 text-orange-500">Phoenix, AZ</p>
+                            <p className="text-[1.4rem] leading-8 text-orange-500">Atlanta, GA</p>
                         </div>
                     </div>
                 </div>
