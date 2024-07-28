@@ -79,7 +79,8 @@ const Header = () => {
                     rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         {navigation.map(nav => (
                             <li key={nav.id}>
-                                <Link href={nav.href} className={`${pathName === nav.href ? 'text-orange-500' : ''} block py-2 px-3 rounded hover:bg-gray-100 
+                                <Link href={nav.href}
+                                    className={`${pathName === nav.href ? 'text-orange-500' : ''} block py-2 px-3 rounded hover:bg-gray-100 
                                 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-orange-500
                                 md:dark:hover:bg-transparent dark:border-gray-700`}>{nav.link}</Link>
                             </li>
