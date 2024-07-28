@@ -8,7 +8,7 @@ const Contact = () => {
         <section id="contact" className="bg-white w-full dark:bg-gray-900 mx-auto">
             <div className="max-w-[1920px] p-6">
                 <SectionIntro subtitle="Reach out" title="Contact me" />
-                <div className="w-full flex gap-4 my-4">
+                <div className="w-full lg:flex gap-4 my-4">
                     <form className="form w-full">
                         <div className="mb-4">
                             <div className="mb-2 block">
@@ -50,7 +50,7 @@ const Contact = () => {
                     focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-8 py-4 mt-4 text-center 
                     dark:orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Send Message</button>
                     </form>
-                    <div className="w-full flex flex-col text-center items-center justify-center">
+                    <div className="mt-[3.5rem] lg:mt-0 w-full flex flex-col text-center items-center justify-center">
                         <div className="email">
                             <div className="flex items-center justify-center text-[1.8rem]">
                                 <MdOutlineEmail /><h2 className="ml-2 tracking-widest dark:text-white"> Email</h2>
