@@ -5,12 +5,15 @@ import Link from "next/link";
 import Logo from '@/public/img/ao-logo.png'
 import LogoW from '@/public/img/ao-logo-white.png'
 import { usePathname } from 'next/navigation'
+import { useRouter } from 'next/navigation';
+
 import profileDefault from '@/public/img/dfp.jpeg'
 import ThemeToggler from "@/components/ThemeToggler";
 
 
 const Header = () => {
-    const pathName = usePathname()
+    const pathName = usePathname();
+
     const navigation = [
         {
             id: 1,
@@ -80,7 +83,7 @@ const Header = () => {
                         {navigation.map(nav => (
                             <li key={nav.id}>
                                 <Link href={nav.href}
-                                    className={`${pathName === nav.href ? 'text-orange-500' : ''} block py-2 px-3 rounded hover:bg-gray-100 
+                                    className={`block py-2 px-3 rounded hover:bg-gray-100 
                                 md:hover:bg-transparent md:hover:text-orange-700 md:p-0 md:dark:hover:text-orange-500 dark:hover:bg-gray-700 dark:hover:text-orange-500
                                 md:dark:hover:bg-transparent dark:border-gray-700`}>{nav.link}</Link>
                             </li>
@@ -90,7 +93,7 @@ const Header = () => {
             </div>
         </nav>
 
-
+        // ${pathName === nav.href ? 'text-orange-500' : ''}
     )
 }
 
