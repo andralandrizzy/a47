@@ -54,9 +54,9 @@ const Contact = () => {
                     focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-8 py-4 mt-4 text-center 
                     dark:orange-600 dark:hover:bg-orange-700 dark:focus:ring-orange-800">Send Message</button>
                     </form>
-                    <div className="mt-[3.5rem] lg:mt-0 w-full relative">
+                    <div className="mt-[3.5rem] lg:mt-0 w-full h-[460px] relative">
                         <Lottie animationData={contactData} />
-                        <div className="bg-[#484747da] dark:bg-[#0f081db6] img-contact
+                        <div className="bg-[#484747da] h-[460px] dark:bg-[#0f081db6] img-contact
                         flex flex-col text-end items-end justify-center pr-8">
                             <div className="email">
                                 <div className="flex items-center justify-end text-[1.8rem] text-orange-500">
