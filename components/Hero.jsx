@@ -1,8 +1,9 @@
 "use client"
 import Image from "next/image"
 import Link from "next/link"
-import imageHero from '@/public/img/hero.svg'
 import { ReactTyped } from "react-typed";
+import Lottie from "lottie-react";
+import heroData from '@/public/img/devhero1.json'
 
 
 
@@ -54,7 +55,8 @@ const Hero = () => {
                 </div>
 
                 <div className="hidden pt-5 lg:mt-0 lg:col-span-5 h-[90%] w-[100%] lg:flex">
-                    <Image src={imageHero} alt="mockup" />
+                    {/* <Image src={imageHero} alt="mockup" /> */}
+                    <Lottie animationData={heroData} />
                 </div>
             </div>
 
