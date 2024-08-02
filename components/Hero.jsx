@@ -9,7 +9,7 @@ import heroData from '@/public/img/devhero1.json'
 
 const Hero = () => {
     return (
-        <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto py-6 
+        <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto 
         place-content-center">
             <video
                 oncontextmenu="return false;"
@@ -20,8 +20,7 @@ const Hero = () => {
                 type="video/mp4"
                 className="bgVideo w-[100%] xl:max-w-[1920px] mx-auto">
             </video>
-            <div className="hero-content bg-[#f2eeee28] dark:bg-[#04061e72] grid w-[100%] xl:max-w-[1920px] px-6 py-0 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-
+            <div className="hero-content bg-[#00000028] dark:bg-[#04061e72] grid w-[100%] xl:max-w-[1920px] px-6 py-0 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div className="flex mr-auto lg:col-span-7 w-[100%]">
                     <div className="my-[5rem]">
                         <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-wide leading-none md:text-5xl xl:text-6xl 
@@ -36,7 +35,6 @@ const Hero = () => {
                                     showCursor={true}
                                 />
                             </span>
-
                             <br /> Andral Orelus</h1>
                         <p className="max-w-2xl mb-6 font-light text-gray-100 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
                         <Link href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-orange-500 border-2 border-orange-500

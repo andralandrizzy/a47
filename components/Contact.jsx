@@ -56,7 +56,7 @@ const Contact = () => {
                     </form>
                     <div className="mt-[3.5rem] lg:mt-0 w-full h-[440px] relative">
                         <Lottie animationData={contactData} />
-                        <div className="bg-[#484747da] h-[440px] dark:bg-[#0f081db6] img-contact
+                        <div className="bg-[#1d1a1ad7] lg:h-[540px] dark:bg-[#0f081db6] img-contact
                         flex flex-col text-end items-end justify-center pr-8">
                             <div className="email">
                                 <div className="flex items-center justify-end text-[1.23rem] lg:text-[1.40rem] text-orange-500">
