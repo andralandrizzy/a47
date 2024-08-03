@@ -93,7 +93,7 @@
 .bgVideo {
   background-color: #1d1b1b;
   position: relative;
-  height: 95vh;
+  height: 98vh;
   object-fit: cover;
 }
 
@@ -106,7 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 95vh;
+  height: 98vh;
 }
 
 .img-contact {

@@ -9,7 +9,7 @@ import heroData from '@/public/img/devhero1.json'
 
 const Hero = () => {
     return (
-        <section className="bg-white relative h-[95vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto 
+        <section className="bg-white relative h-[98vh] videoBg border-b-2 border-[#74747413] w-full dark:bg-gray-900 mx-auto 
         place-content-center">
             <video
                 oncontextmenu="return false;"
