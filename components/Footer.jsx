@@ -6,10 +6,10 @@ const FooterSite = () => {
     const year = date.getFullYear();
     return (
         <section className="w-full dark:bg-gray-900">
-            <div className="p-6">
-                <Footer container className="max-w-[1920px] mx-auto">
-                    <div className="w-full sm:flex sm:items-center sm:justify-between">
-                        <Footer.Copyright className="font-bold" href="#" by="Andral Orelus" year={year} />
+            <div className="pt-[2rem]">
+                <Footer container className="max-w-[1920px]">
+                    <div className="w-[83.33%] flex items-center justify-between mx-auto">
+                        <Footer.Copyright className="font-bold" href="https://andralorelus.vercel.app/" by="Andral Orelus" year={year} />
                         <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
                             <Footer.Icon href="#" icon={BsFacebook} />
                             <Footer.Icon href="#" icon={BsInstagram} />

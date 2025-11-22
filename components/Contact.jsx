@@ -10,10 +10,10 @@ import contactData from '@/public/img/contact.json'
 const Contact = () => {
     return (
         <section id="contact" className="bg-white w-full dark:bg-gray-900 mx-auto">
-            <div className="max-w-[1920px] p-6">
+            <div className="max-w-[83.33%] mx-auto p-6 text-center">
                 <SectionIntro subtitle="Reach out" title="Contact me" />
                 <div className="w-full lg:flex gap-6 my-4">
-                    <form className="form w-full">
+                    <form className="form text-start w-full">
                         <div className="mb-4">
                             <div className="mb-2 block">
                                 <Label htmlFor="firstname" value="First Name" />

@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Blogs from "@/components/Blogs";
 import Contact from "@/components/Contact";
+import ContactBg from "@/components/ContactBg";
 import Education from "@/components/Education";
 import Experiences from "@/components/Experiences";
 import Expertise from "@/components/Expertise";
@@ -15,13 +16,14 @@ const HomePage = () => {
     <>
       <Hero />
       <About />
-      <Expertise />
-      <TaskStats />
       <Skills />
-      <Education />
-      <Experiences />
+      {/* <Expertise /> */}
+      <TaskStats />
+      {/* <Education />
+      <Experiences /> */}
       <Work />
-      <Blogs />
+      {/* <Blogs /> */}
+      <ContactBg />
       <Contact />
     </>
   )

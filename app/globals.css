@@ -80,15 +80,25 @@
 }
 
 .bg-section {
-  background-image: url('../public/img/stats.webp');
+  background-attachment: fixed;
+  background-image: url('../public/img/stat.jpg');
   background-color: #1d1b1b;
-  height: 400px;
+  height: 430px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
 }
 
+.bg-contact {
+  background-attachment: fixed;
+  background-image: url('../public/img/contak.jpg');
+  background-color: #1d1b1b;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
 
 .bgVideo {
   background-color: #1d1b1b;
@@ -105,7 +115,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 98vh;
 }
 
@@ -116,4 +126,15 @@
   right: 0%;
   bottom: 0%;
   width: 100%;
+}
+
+
+.aboutImg {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+p {
+  padding: 7px 0;
 }

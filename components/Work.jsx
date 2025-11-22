@@ -70,10 +70,10 @@ const Work = () => {
         },
     ]
     return (
-        <section id="work" className="w-full dark:bg-gray-900">
-            <div className="max-w-[1920px] mx-auto p-6">
-                <SectionIntro subtitle="My work" title="some of my awesome works" />
-                <div className="grid lg:grid-cols-3 gap-7 overflow-hidden">
+        <section id="work" className="w-full py-[2rem] text-center dark:bg-gray-900">
+            <div className="max-w-[83.33%] mx-auto p-6">
+                <SectionIntro subtitle="work" title="Recent projects" />
+                <div className="grid lg:grid-cols-3 gap-7 pt-[2rem] overflow-hidden">
                     {recentWork.map((work) => (
                         <Link href={'/'}>
                             <div className="relative" key={work.id}>
