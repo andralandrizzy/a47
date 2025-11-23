@@ -48,7 +48,7 @@ const Header = () => {
         },
     ]
     return (
-        <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 shadow-md shadow-orange-600">
             <div className="max-w-[83.33%] flex flex-wrap items-center justify-between mx-auto p-3">
                 <Link href={'/'} className="flex items-center">
                     <Image src={Logo} className="h-[35px] w-[100%] block dark:hidden p-0 m-0" alt="andral orelus Logo" />
